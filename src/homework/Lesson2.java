@@ -4,34 +4,34 @@ public class Lesson2 {
 
     public static void main(String[] args) {
 
-     int OrderNo;
-     String  Client;
-     String  Product;
+     int orderNo;
+     String  client;
+     String  product;
      double price;
-     String  Address;
+     String  address;
 
-      OrderNo = 1;
-      Client = "Alice";
-      Product = "smartphone";
-      price = 305.99;
-      Address = "Moon Street, 10";
+     orderNo = 1;
+     client = "Alice";
+     product = "smartphone";
+     price = 305.99;
+     address = "Moon Street, 10";
 
-System.out.println( "Order No " + OrderNo + " Client: " + Client +".");
-System.out.println( "Product: " + Product + ",");
+System.out.println( "Order No " + orderNo + " Client: " + client +".");
+System.out.println( "Product: " + product + ",");
 System.out.println( "price EUR " + price + ".");
-System.out.println( "Address: " + Address + ".");
+System.out.println( "Address: " + address + ".");
 
 
-        OrderNo = 2;
-        Client = "Tom";
-        Product = "laptop";
+        orderNo = 2;
+        client = "Tom";
+        product = "laptop";
         price = 570.95;
-        Address = "Terra Street, 17";
+        address = "Terra Street, 17";
 
-        System.out.println( "Order No " + OrderNo + " Client: " + Client +".");
-        System.out.println( "Product: " + Product + ",");
+        System.out.println( "Order No " + orderNo + " Client: " + client +".");
+        System.out.println( "Product: " + product + ",");
         System.out.println( "price EUR " + price + ".");
-        System.out.println( "Address: " + Address + ".");
+        System.out.println( "Address: " + address + ".");
 
 
 
